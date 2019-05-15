@@ -1,1 +1,4 @@
 # HSTFinalProject
+
+### Overview
+This project includes code for analyzing racial disparities in opioid dosage prescriptions using the MIMIC-III dataset. All MIMIC data can be downloaded from the website: the relevant tables are ADMISSIONS, ICUSTAYS, and PATIENTS. In order to clean, filter, and join these tables to form the final cohort, simply run the cells in the 'Data Cleaning' notebook. For convenience, we've already generated the cleaned dataset, which can be found as patient_normalized_mme.csv in the data folder. In order to run the causal inference analysis, including inverse propensity score weighted ATE calculations, simply run the cells in the 'Full Causal Analysis' notebook. All other files or notebooks can be disregarded.
